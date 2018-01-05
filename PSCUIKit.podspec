@@ -63,12 +63,11 @@ Pod::Spec.new do |s|
   # s.public_header_files = "Classes/**/*.h"
   
   s.source_files = "SNNavigationBar/*.{h,m,mm,c}"
-  s.resources = "SNNavigationBar/resource/*.png"
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   # s.resource  = "icon.png"
-  # s.resources = "Resources/*.png"
+  s.resources = "SNNavigationBar/resource/*.png"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
@@ -88,5 +87,7 @@ Pod::Spec.new do |s|
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
+
+  s.module_name = 'SNNavigationBar'
 
 end
