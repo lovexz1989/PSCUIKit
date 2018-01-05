@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
                    PSCUIKit is a pod of suning psc project.It contains basic function about Suning UI components
                    DESC
 
-  s.homepage     = "http://git.cnsuning.com/srcbios/srcbios"
+  s.homepage     = "https://github.com/lovexz1989/PSCUIKit"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -62,8 +62,8 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = "Classes/**/*.h"
   
-  s.source_files = "PSCUIKit/**/*.{h,m,mm,c}"
-  s.resources = "PSCUIKit/**/*.png"
+  s.source_files = "SNNavigationBar/*.{h,m,mm,c}"
+  s.resources = "SNNavigationBar/**/*.png"
 
   s.module_name = "PSCUIKit"
 
