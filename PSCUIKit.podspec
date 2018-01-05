@@ -57,7 +57,7 @@ Pod::Spec.new do |s|
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  
+
   # s.public_header_files = "Classes/**/*.h"
   
   s.source_files = "SNNavigationBar/*.{h,m}"
@@ -65,7 +65,7 @@ Pod::Spec.new do |s|
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   # s.resource  = "icon.png"
-  s.resources = "SNNavigationBar/resource/*.png"
+  s.resources = "SNNavigationBar/**/*.{png}"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
