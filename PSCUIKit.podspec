@@ -63,10 +63,7 @@ Pod::Spec.new do |s|
   # s.public_header_files = "Classes/**/*.h"
   
   s.source_files = "SNNavigationBar/*.{h,m,mm,c}"
-  s.resources = "SNNavigationBar/**/*.png"
-
-  s.module_name = "PSCUIKit"
-
+  s.resources = "SNNavigationBar/resource/*.png"
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
